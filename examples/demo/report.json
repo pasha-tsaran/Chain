@@ -1,0 +1,43 @@
+{
+  "description": "Учебный пример работы четырёхэтапной цепочки",
+  "title": "Как вести дневник без давления: запись, которая не требует усилий",
+  "text_model": "qwen3:8b",
+  "image_model": "stabilityai/sd-turbo",
+  "checks": [
+    {
+      "score_percent": 32.6,
+      "version": 2,
+      "checked_at_utc": "2026-10-28T18:30:17.399000+00:00",
+      "source": "ZeroGPT website, checked in browser with user permission",
+      "highlighted_fragments": 10
+    },
+    {
+      "score_percent": 0.0,
+      "version": 3,
+      "checked_at_utc": "2026-10-28T18:35:28.522172+00:00",
+      "source": "ZeroGPT, бесплатная форма сайта (автоматически)",
+      "highlighted_fragments": 0
+    }
+  ],
+  "revision_passes": 1,
+  "rewritten_fragments": 10,
+  "outside_highlights_unchanged": true,
+  "final_version": 3,
+  "final_text_characters": 2001,
+  "final_text_sha256": "1d0af8fde45f127b90718108c386757161f818c48099c69402dbefce0239f62e",
+  "images": [
+    {
+      "file": "images/image-1.png",
+      "prompt": "A brown notebook lies on a wooden table, beside it a coffee mug with steam rising. Soft, dusty light filters through a window, casting warm tones across the room.",
+      "seed": 2123269335,
+      "sha256": "33d7a72133d0c3feb5a4c5cfc362589a0b4e088145e555aa9d82be6e8cdc12bd"
+    },
+    {
+      "file": "images/image-2.png",
+      "prompt": "A crumpled sheet of paper with smudged writing rests on the floor, next to a mug and a rolled-up magazine. The light is dim, casting long shadows across the space.",
+      "seed": 1959100245,
+      "sha256": "036d2e2b7b3aa21cf13d1b57ade2cdc3ee6c4d3dd23b83a9d4a0f6a115301cc9"
+    }
+  ],
+  "caution": "Процент является оценкой детектора и не доказывает авторство, литературное качество или достоверность статьи."
+}
